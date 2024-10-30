@@ -1,0 +1,137 @@
+@import url(Typography.css);
+@import url(Images.css);
+@import url(Grid.css);
+@import url(media.css);
+
+
+/* Body styling*/
+body {
+    font-family: Arial, sans-serif;
+    color: whitesmoke;
+    background-color: rgba(200, 200, 200, 0.5);
+    background-blend-mode: overlay;
+    padding: 20px;
+    line-height: 1.6;
+    background-image: url("../Pics/mario-2690254_1280.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header {
+    padding-bottom: 20px;
+    border-bottom: 2px dotted crimson;
+    text-align: center;
+}
+
+header .navbar {
+    text-align: center;
+    padding: 15px;
+}
+
+header .navbar,
+li {
+    display: inline-flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-between;
+    text-align: center;
+    padding: 35px;
+}
+
+header .navbar ul li a {
+    text-decoration: none;
+}
+
+.author-name {
+    font-style: oblique;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: indigo;
+}
+
+.author-description {
+    font-size: 1em;
+    font-style: italic;
+    font-weight: 300;
+    font-family: fantasy;
+    color: indigo;
+}
+
+.main-content {
+    text-align: center;
+    list-style-position: inside;
+}
+
+
+.navbar,
+.blog-title {
+    font-size: 2em;
+    justify-content: center;
+    margin-bottom: 0;
+    gap: 250px;
+}
+
+.card {
+    padding: 20px;
+    margin: 15px;
+    border: 2px dashed olivedrab;
+    border-radius: 5px;
+    background-color: transparent;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 18vw;
+    align-items: center;
+    align-content: center;
+}
+
+.card img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.card p {
+    text-align: center;
+}
+
+.post-summary {
+    flex-grow: 1;
+    margin-bottom: 10px;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    border-top: 2px dotted crimson;
+    margin-top: 20px;
+}
+
+footer p {
+    margin-bottom: 5px;
+}
+
+footer a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 15px;
+}
+
+.socials img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease;
+}
+
+.socials img:hover {
+    transform: scale(1.2);
+}
